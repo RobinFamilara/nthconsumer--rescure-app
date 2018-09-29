@@ -1,0 +1,37 @@
+{
+  "name": "nikerunning",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.0.13",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-device-info": "^0.22.5",
+    "react-native-deviceinfo": "^0.10.4",
+    "react-native-dom": "0.1.1",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-material-ui": "^1.30.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-test-renderer": "16.3.1",
+    "rnpm-plugin-dom": "^0.1.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/fonts/"
+    ]
+  }
+}
